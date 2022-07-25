@@ -9,6 +9,57 @@
     margin-right: 4px;
 
 } */
-input::-webkit-datetime-edit-hour-field {
-    margin-left: 10px;
+
+.cont {
+    overflow: hidden;
 }
+
+.transition {
+    transition: height 2s;
+}
+
+input::-webkit-datetime-edit-hour-field {
+    margin-left: 6px;
+}
+input::-webkit-datetime-edit-ampm-field {
+    margin-right: 6px;
+}
+
+input[type="datetime-local"] {
+    border-bottom: 1px solid #DEE2E6 !important;
+    padding: 4px !important;
+    /* border-radius: 4px; */
+}
+/* 
+input[type="datetime-local"]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=datetime-local]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=datetime-local]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=datetime-local]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=datetime-local]::-webkit-datetime-edit-hour-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=datetime-local]::-webkit-datetime-edit-minute-field {
+    -webkit-appearance: none;
+    display: none;
+} */
+/* input[type=datetime-local]::-webkit-datetime-edit-ampm-field {
+    -webkit-appearance: none;
+    display: none; 
+}
+input[type=datetime-local]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}  */
